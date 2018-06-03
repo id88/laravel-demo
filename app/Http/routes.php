@@ -90,3 +90,11 @@ Route::group(['Minddleware' => ['web', 'admin.login']], function(){
 // });
 // 当然，最好写成控制器的形式
 Route::get('myblog', 'User\UserController@showBlog');
+
+
+
+
+Route::get('study', 'StudyController@study');
+
+Route::get('moban', 'StudyController@moban');
+
