@@ -98,3 +98,5 @@ Route::get('study', 'StudyController@study');
 
 Route::get('moban', 'StudyController@moban');
 
+Route::get('dbtest', 'StudyController@dbtest');
+
